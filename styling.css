@@ -27,7 +27,7 @@ body {
 #image {
   flex-shrink: 0;
   box-sizing: border-box;
-  margin-top: 70px; }
+  margin-top: 31.73px; }
 
 #imagesearch {
   float: right;
@@ -42,16 +42,15 @@ body {
   font-size: 14px;
   line-height: 27px;
   height: 36px;
-  width: 120px;
+  width: 140px;
   text-align: center;
   cursor: pointer;
   user-select: none;
   outline: none;
   float: left;
-  margin-left: 160px;
+  margin-left: 140px;
   margin-top: 30px;
   opacity: 0.85; }
-
 
 #button1:hover {
   opacity: 1; }
@@ -65,15 +64,16 @@ body {
   font-size: 14px;
   line-height: 27px;
   height: 36px;
-  width: 120px;
+  width: 140px;
   text-align: center;
   cursor: pointer;
   user-select: none;
   outline: none;
   float: right;
-  margin-right: 160px;
+  margin-right: 140px;
   margin-top: 30px;
-  opacity: 0.85; }
+  opacity: 0.85;
+}
 
 #button2:hover {
   opacity: 1; }
@@ -85,7 +85,16 @@ body {
   cursor: pointer;
   height: 100%;
   width: 100%;
-  border-radius: 4px; }
+  border-radius: 4px;
+ }
 
 div {
   display: block; }
+
+a {
+  margin-right: 10px;
+  float: right;
+  padding: 1px;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+}
