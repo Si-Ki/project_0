@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel = "icon" href = "img/icon.png">
+        <link rel = "stylesheet" href="css/advanced.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id = "header">
+            <a href = "index.html"> 
+                <img id ="image" src="img/logo.png" alt="image here">
+            </a>
+        </div>
+        <div id = "form">
+       <form action = "https://google.com/search">
+        <label id = "heading">Advanced Search</label>
+        <hr>
+        <br>
+        <label font-size = "15px">Find pages with...</label><br><br>
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">all these words</span>
+                <input type="text" class="form-control" name = "as_q" placeholder ="Type the important words: tri-colour rat terrier" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+              </div>
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">this exact word or phrase</span>
+                <input type="text" class="form-control" name = "as_epq" placeholder ="Put exact words in quotes: 'rat terrier'" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+              </div>
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">any of these words</span>
+                <input type="text" class="form-control" name = "as_oq" placeholder="Type OR between all the words you want: miniature OR standard" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+              </div>
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">none of these words</span>
+                <input type="text" class="form-control" name = "as_eq" placeholder="Put a minus sign just before words that you don't want: -rodent, -'Jack Russell'
+                " aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+              </div>
+              <br>
+            <button type="submit" class="btn btn-primary btn-sm">Advanced Search</button>
+       </form>
+       </div>
+    </body>
+</html>
